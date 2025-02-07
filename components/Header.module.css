@@ -1,0 +1,22 @@
+.header {
+  background-color: #020f1d; /* This will override Tailwind's bg-blue-900 */
+  padding: 1rem; /* This will override Tailwind's p-4 */
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.logo img {
+  max-width: 50px;
+}
+
+.navLink {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0070f3; /* This will override Tailwind's text color */
+}
