@@ -1,0 +1,12 @@
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.video {
+    width: 1200px;
+    height: 675px;
+    /* Aspect ratio 16:9 */
+    max-width: 100%;
+}

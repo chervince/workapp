@@ -12,10 +12,10 @@ const Header: React.FC = () => {
         <Link href="/" className={styles.navLink}>
           Accueil
         </Link>
-        <Link href="/contact" className={styles.navLink}>
-          Contact
+        <Link href="/data" className={styles.navLink}>
+          Data
         </Link>
-        <Link href="/about" className={styles.navLink}>
+        <Link href="/a-propos" className={styles.navLink}>
           A propos
         </Link>
       </nav>
