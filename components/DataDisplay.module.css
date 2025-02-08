@@ -1,19 +1,20 @@
 /* DataDisplay.module.css */
 .container {
-  padding: 20px;
+  padding: 16px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  box-sizing: border-box; /* Ensure padding is included in the width */
+  box-sizing: border-box;
+  /* Ensure padding is included in the width */
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2em;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .list {
@@ -25,4 +26,10 @@
   font-size: 1rem;
   color: #666;
   margin-bottom: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
