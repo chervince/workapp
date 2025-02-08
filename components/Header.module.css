@@ -2,6 +2,7 @@
   background-color: #020f1d; /* This will override Tailwind's bg-blue-900 */
   padding: 1rem; /* This will override Tailwind's p-4 */
   text-align: center;
+  width: 100%; /* Ensure it takes full width */
 }
 
 .logo {
