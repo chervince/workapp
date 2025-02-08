@@ -38,7 +38,7 @@ const DataDisplay: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Data from Supabase</h1>
+      <h1 className={styles.title}>Data from Supabase!</h1>
       <ul className={styles.list}>
         {data.map((item) => (
           <li key={item.id} className={styles.listItem}>{item.name}</li>
