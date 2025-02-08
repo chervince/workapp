@@ -41,7 +41,7 @@ const DataDisplay: React.FC = () => {
       <h1 className={styles.title}>Data from Supabase</h1>
       <ul className={styles.list}>
         {data.map((item) => (
-          <li key={item.id} className={styles.listItem}>{item.name},{item.price},{item.stock}</li>
+          <li key={item.id} className={styles.listItem}>{item.name}</li>
         ))}
       </ul>
     </div>
